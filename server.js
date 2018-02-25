@@ -3,7 +3,7 @@ var app = express();
 var httpRequest = require('request');
 var client_id = 'a71a46474825476ab7b5658d3295fa0b';
 var client_secret = '2086e78e343d45bb89d3ee18b9e46d09';
-var redirect_uri = 'http://localhost:8080/auth';
+var redirect_uri = 'http://host21014.proxy.infralabs.cs.ui.ac.id/auth';
 var oauth_instagram = 'https://api.instagram.com/oauth/authorize/?client_id=' + client_id + '&redirect_uri=' + redirect_uri + '&response_type=code';
 var access_token = '';
 
